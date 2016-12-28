@@ -3,8 +3,8 @@
 include_once 'Config.meta.php';
 
 // CONFIGRAÇÕES DE APIs ####################
-define('EUR_API_KEY', '6q8gzF2hN');
-define('EUR_PRIVATE_KEY', '3i7Fykacu');
+define('EUR_API_KEY', '');
+define('EUR_PRIVATE_KEY', '');
 
 // CONFIGRAÇÕES DO BANCO ####################
 define('HOST', 'localhost');
