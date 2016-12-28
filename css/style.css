@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 14:54:43
+    Author     : MB
+*/
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;}
+.search{display: block; width: 100%; max-width: 600px; max-height: 1000px; border: 15px solid #fff; margin: 0 auto; padding: 20px; background: #eee; overflow:auto;}
+.search header{margin-bottom: 20px; text-align: left; padding-bottom: 20px; border-bottom: 2px solid #ccc;}
+.search header p{margin: 5px 0 10px 0;}
+.register{display: block; width: 100%; max-width: 600px; border: 15px solid #fff; margin: 0 auto; padding: 20px; background: #eee;}
+.register header{margin-bottom: 20px; text-align: left; padding-bottom: 20px; border-bottom: 2px solid #ccc;}
+.register header p{margin: 5px 0 10px 0;}
+.openform{float: right; background: #80b25c; display: inline-block; font-size: 1.2em; margin-left: 10px; border: 2px solid #fff; outline: 2px solid #80b25c; padding: 5px 10px; cursor: pointer; color: #fff; text-transform: uppercase; margin-top: 10px;}
+.openform:before{content: '+';}
+.openform.closeform{background-color: #b25c5c; outline-color: #b25c5c; padding: 5px 12.5px;}
+.openform.closeform:before{content: '-';}
+
+.search form{display: none; margin-bottom: 30px;}
+.search input{width: 100%; padding: 10px; margin-bottom: 10px;}
+.search button{background: #0033ff; border: 2px solid #fff; outline: 2px solid #0033ff; padding: 10px; cursor: pointer; color: #fff; text-transform: uppercase; margin-top: 10px;}
+.register form{display: none; margin-bottom: 30px;}
+.register input[type="text"]{width: 100%; padding: 10px; margin-bottom: 10px;}
+.register button{background: #09f; border: 2px solid #fff; outline: 2px solid #09f; padding: 10px; cursor: pointer; color: #fff; text-transform: uppercase; margin-top: 10px;}
+.user_box{display: block; padding: 10px; background: #fbfbfb; margin-top: 20px; padding-top: 20px; border-top: 1px dotted #000;}
+.action{cursor: pointer; display: inline-block; margin-top: 10px; padding: 5px 10px; font-size: 0.7em; margin-right: 10px; text-transform: uppercase; background: #555; color: #fff;}
+.del{background: #a72626;}
+.edit{background: #006699;}
+.form_load{display: none; vertical-align: middle; margin-left: 15px; margin-top: -2px;}
+.trigger{display: none; text-transform: uppercase; padding: 15px; background: #ccc; color: #000; margin-bottom: 20px; font-size: 0.8em; font-weight: bolder}
+.trigger-error{background: #e4b4b4;}
+.trigger-success{background: #b4e4b9;}
+.loadmore{display: inline-block; margin-top: 25px; text-transform: uppercase; font-size: 0.7em; background: #555; color: #fff; padding: 10px; cursor: pointer;}
